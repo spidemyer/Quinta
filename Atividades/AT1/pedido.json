@@ -1,0 +1,175 @@
+{
+    "pedidos": [
+        {
+            "id_pedido": 151,
+            "data": "2026-04-23",
+            "cliente_id": 1,
+            "valor_total": 220.00,
+            "peso_total_kg": 1.5,
+            "status_fragil": false,
+            "metodo_pagamento": "CARTAO CREDITO",
+                "itens": [
+                    { "produto": "Camiseta", "qtd": 2, "preco": 50.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 5,
+                "rastreio": "BR123456432"
+            }
+        },
+        {
+            "id_pedido": 152,
+            "data": "2026-04-24",
+            "cliente_id": 2,
+            "valor_total": 150.00,
+            "peso_total_kg": 0.8,
+            "status_fragil": true,
+            "metodo_pagamento": "BOLETO",
+                "itens": [
+                    { "produto": "Caneca", "qtd": 1, "preco": 30.00 },
+                    { "produto": "Livro", "qtd": 1, "preco": 120.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 7,
+                "rastreio": "BR654321098"
+            }
+        },
+        {
+            "id_pedido": 153,
+            "data": "2026-04-25",
+            "cliente_id": 3,
+            "valor_total": 300.00,
+            "peso_total_kg": 2.0,
+            "status_fragil": false,
+            "metodo_pagamento": "PIX",
+                "itens": [
+                    { "produto": "Tênis", "qtd": 1, "preco": 300.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 3,
+                "rastreio": "BR789012345"
+            }
+        },
+        {
+            "id_pedido": 154,
+            "data": "2026-04-26",
+            "cliente_id": 4,
+            "valor_total": 80.00,
+            "peso_total_kg": 0.5,
+            "status_fragil": true,
+            "metodo_pagamento": "CARTAO DEBITO",
+                "itens": [
+                    { "produto": "Relógio", "qtd": 1, "preco": 80.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 4,
+                "rastreio": "BR321098765"
+            }
+        },
+        {
+            "id_pedido": 155,
+            "data": "2026-04-27",
+            "cliente_id": 5,
+            "valor_total": 60.00,
+            "peso_total_kg": 0.3,
+            "status_fragil": false,
+            "metodo_pagamento": "BOLETO",
+                "itens": [
+                    { "produto": "Mochila", "qtd": 1, "preco": 60.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 6,
+                "rastreio": "BR567890123"
+            }
+        },
+        {
+            "id_pedido": 156,
+            "data": "2026-04-28",
+            "cliente_id": 6,
+            "valor_total": 200.00,
+            "peso_total_kg": 1.0,
+            "status_fragil": false,
+            "metodo_pagamento": "PIX",
+                "itens": [
+                    { "produto": "Fone de Ouvido", "qtd": 1, "preco": 200.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 5,
+                "rastreio": "BR890123456"
+            }
+        },
+        {
+            "id_pedido": 157,
+            "data": "2026-04-29",
+            "cliente_id": 7,
+            "valor_total": 120.00,
+            "peso_total_kg": 0.7,
+            "status_fragil": true,
+            "metodo_pagamento": "CARTAO CREDITO",
+                "itens": [
+                    { "produto": "Tablet", "qtd": 1, "preco": 120.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 4,
+                "rastreio": "BR901234567"
+            }
+        },
+        {
+            "id_pedido": 158,
+            "data": "2026-04-30",
+            "cliente_id": 8,
+            "valor_total": 90.00,
+            "peso_total_kg": 0.4,
+            "status_fragil": false,
+            "metodo_pagamento": "BOLETO",
+                "itens": [
+                    { "produto": "Cadeira", "qtd": 1, "preco": 90.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 7,
+                "rastreio": "BR012345678"
+            }
+        },
+        {
+            "id_pedido": 159,
+            "data": "2026-05-01",
+            "cliente_id": 1,
+            "valor_total": 50.00,
+            "peso_total_kg": 0.2,
+            "status_fragil": false,
+            "metodo_pagamento": "PIX",
+                "itens": [
+                    { "produto": "Livro", "qtd": 1, "preco": 50.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 3,
+                "rastreio": "BR234567890"
+            }
+        },
+        {
+            "id_pedido": 160,
+            "data": "2026-05-02",
+            "cliente_id": 2,
+            "valor_total": 70.00,
+            "peso_total_kg": 0.3,
+            "status_fragil": true,
+            "metodo_pagamento": "CARTAO DEBITO",
+                "itens": [
+                    { "produto": "Caneca", "qtd": 2, "preco": 35.00 }
+             ],
+                "entrega": {
+                "transportadora": "bts Express",
+                "prazo_dias": 5,
+                "rastreio": "BR345678901"
+            }
+        }
+    ]
+}
